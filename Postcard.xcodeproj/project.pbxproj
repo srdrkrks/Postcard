@@ -14,6 +14,8 @@
 		EF6ACF9C1C6A10CE009F4359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6ACF9A1C6A10CE009F4359 /* LaunchScreen.storyboard */; };
 		EF6ACFA71C6A10CE009F4359 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6ACFA61C6A10CE009F4359 /* PostcardTests.swift */; };
 		EF6ACFB21C6A10CE009F4359 /* PostcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6ACFB11C6A10CE009F4359 /* PostcardUITests.swift */; };
+		EF6ACFC61C6A2243009F4359 /* MEN_Deneyim_Dunya.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6ACFC51C6A2243009F4359 /* MEN_Deneyim_Dunya.png */; };
+		EF6ACFC81C6A226D009F4359 /* pyksys_sembol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF6ACFC71C6A226D009F4359 /* pyksys_sembol.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EF6ACFAD1C6A10CE009F4359 /* PostcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6ACFB11C6A10CE009F4359 /* PostcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardUITests.swift; sourceTree = "<group>"; };
 		EF6ACFB31C6A10CE009F4359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6ACFC51C6A2243009F4359 /* MEN_Deneyim_Dunya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MEN_Deneyim_Dunya.png; sourceTree = "<group>"; };
+		EF6ACFC71C6A226D009F4359 /* pyksys_sembol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pyksys_sembol.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		EF6ACF901C6A10CE009F4359 /* Postcard */ = {
 			isa = PBXGroup;
 			children = (
+				EF6ACFC41C6A2236009F4359 /* imajlar */,
 				EF6ACF911C6A10CE009F4359 /* AppDelegate.swift */,
 				EF6ACF931C6A10CE009F4359 /* ViewController.swift */,
 				EF6ACF951C6A10CE009F4359 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				EF6ACFB31C6A10CE009F4359 /* Info.plist */,
 			);
 			path = PostcardUITests;
+			sourceTree = "<group>";
+		};
+		EF6ACFC41C6A2236009F4359 /* imajlar */ = {
+			isa = PBXGroup;
+			children = (
+				EF6ACFC71C6A226D009F4359 /* pyksys_sembol.jpg */,
+				EF6ACFC51C6A2243009F4359 /* MEN_Deneyim_Dunya.png */,
+			);
+			name = imajlar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +245,9 @@
 			files = (
 				EF6ACF9C1C6A10CE009F4359 /* LaunchScreen.storyboard in Resources */,
 				EF6ACF991C6A10CE009F4359 /* Assets.xcassets in Resources */,
+				EF6ACFC61C6A2243009F4359 /* MEN_Deneyim_Dunya.png in Resources */,
 				EF6ACF971C6A10CE009F4359 /* Main.storyboard in Resources */,
+				EF6ACFC81C6A226D009F4359 /* pyksys_sembol.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
